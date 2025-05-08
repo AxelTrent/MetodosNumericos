@@ -16,5 +16,21 @@ El error absoluto es la diferencia entre el valor real (o valor exacto) y el val
 
 Fórmula: EA = ∣ Valor real − Valor aproximado ∣
 
+Características:
 
+1.- Siempre es un valor positivo (se usa valor absoluto).
+
+2.- Tiene las mismas unidades que la magnitud medida.
+
+3.- No permite comparar la precisión entre diferentes mediciones (porque no considera el tamaño del valor real).
+
+Ejemplo:
+
+Valor real de una longitud: 10cm 
+
+Valor medido: 9.5 cm
+
+Error absoluto: EA=∣10−9.5∣=0.5cm
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
