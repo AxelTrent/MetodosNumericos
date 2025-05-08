@@ -14,7 +14,9 @@ Definición:
 
 El error absoluto es la diferencia entre el valor real (o valor exacto) y el valor aproximado (o medido). Indica la magnitud del error sin considerar la escala de la medición.
 
-Fórmula: EA = ∣ Valor real − Valor aproximado ∣
+Fórmula:
+
+EA = ∣ Valor real − Valor aproximado ∣
 
 Características:
 
@@ -34,3 +36,20 @@ Error absoluto: EA=∣10−9.5∣=0.5cm
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Error Relativo (ER)
+
+Definición:
+
+El error relativo es el cociente entre el error absoluto y el valor real. Mide la proporción del error en relación con el valor exacto y se expresa como un porcentaje o fracción.
+
+Fórmula:
+
+ER = EA/VALOR REAL o ER& = ( EA/VALOR REAL ) X 100
+
+Características:
+
+1.- Es adimensional (no tiene unidades) o se expresa en porcentaje.
+
+2.- Permite comparar la precisión de mediciones de diferentes escalas.
+
+3.- Útil para evaluar la calidad de una aproximación.
