@@ -63,3 +63,8 @@ Error relativo: ER = 0.5/10 = 0.05
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Conclusión:
+
+El error absoluto te dice "cuánto te equivocaste" en términos absolutos.
+
+El error relativo te dice "qué tan significativo fue el error" en comparación con el valor real.
