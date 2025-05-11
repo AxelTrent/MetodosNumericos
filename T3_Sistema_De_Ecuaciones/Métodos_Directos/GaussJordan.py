@@ -1,1 +1,7 @@
-
+def mostrar_matriz(matriz, soluciones, n):
+    for i in range(n):
+        print("| ", end="")
+        for j in range(n):
+            print(f"{matriz[i][j]:8.3f} ", end="")
+        print(f"| {soluciones[i]:8.3f} |")
+    print()
