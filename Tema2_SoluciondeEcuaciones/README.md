@@ -12,14 +12,14 @@ Newton-Raphson
 
 Secante
 
-Comparación General           _____________________________________________________________________________________________
-Característica	              | Métodos Cerrados                       | Métodos Abiertos                                 |
-                              _____________________________________________________________________________________________
-Uso de intervalo              |Sí, con cambio de signo en los extremos | No, solo se necesita uno o dos valores iniciales |
-Tipo de convergencia	        |Lenta pero segura	                     | Más rápida, aunque no siempre garantizada        |
-Dificultad de implementación	|Relativamente simple	                   | Puede requerir derivadas o análisis adicional    |
-Ejemplos comunes            	|Bisección, Regla Falsa	                 | Punto Fijo, Newton-Raphson, Secante              |
-                              ---------------------------------------------------------------------------------------------
+Comparación General           
+Característica	              | Métodos Cerrados                       | Métodos Abiertos                                 
+                            
+Uso de intervalo              |Sí, con cambio de signo en los extremos | No, solo se necesita uno o dos valores iniciales
+Tipo de convergencia	        |Lenta pero segura	                     | Más rápida, aunque no siempre garantizada       
+Dificultad de implementación	|Relativamente simple	                   | Puede requerir derivadas o análisis adicional   
+Ejemplos comunes            	|Bisección, Regla Falsa	                 | Punto Fijo, Newton-Raphson, Secante              
+                            
 Propósito del Tema
 El objetivo principal es que el estudiante:
 
