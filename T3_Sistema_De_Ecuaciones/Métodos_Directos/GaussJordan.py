@@ -43,3 +43,12 @@ def main():
                     matriz[k][j] -= factor * matriz[i][j]
                 soluciones[k] -= factor * soluciones[i]
                 mostrar_matriz(matriz, soluciones, n)
+
+  # Solución final
+    print("Solución final:")
+    for i in range(n):
+        x[i] = soluciones[i]
+        print(f"x[{i}] = {x[i]:.3f}")
+
+if __name__ == "__main__":
+    main()
