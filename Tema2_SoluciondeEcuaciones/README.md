@@ -24,11 +24,11 @@ El objetivo principal es que el estudiante:
 
 Distinga entre métodos cerrados y abiertos.
 
-Seleccione y aplique el método adecuado según las características del problema.
+Selecciona y aplica el método adecuado según las características del problema.
 
-Analice las fortalezas y debilidades de cada enfoque.
+Analizar las fortalezas y debilidades de cada enfoque.
 
-Estudie cómo cada técnica afecta la velocidad de convergencia y la eficiencia computacional.
+Estudiar como cada técnica afecta la velocidad de convergencia y la eficiencia computacional.
 
 Consejos Prácticos
 Es recomendable graficar la función antes de elegir un método.
