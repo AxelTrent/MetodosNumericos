@@ -18,3 +18,42 @@ def main():
     for i in range(n):
         x[i] = 0
         anterior[i] = 0
+
+   print("\nIniciando Iteraciones de Gauss - Seidel")
+    iteracion = 0
+
+    while iteracion < max_iteraciones:
+        for i in range(n):
+            anterior[i] = x[i]
+
+        for i in range(n):
+            suma = soluciones[i]
+            for j in range(n):
+                if j != i:
+                    suma -= matriz[i][j] * x[j]
+            x[i] = suma / matriz[i][i]
+
+        print(f"Iteración {iteracion + 1}:")
+        for j in range(n):
+            print(f"x[{j}] = {x[j]:.3f}")
+
+        convergencia = True
+        for j in range(n):
+            if abs(x[j] - anterior[j]) > tolerancia:
+                convergencia = False
+                break
+
+        if convergencia:
+            print("\nConvergencia alcanzada")
+            print("Solución Final:")
+            for j in range(n):
+                print(f"x[{j}] = {x[j]:.3f}")
+            break
+
+        iteracion += 1
+
+    if iteracion >= max_iteraciones:
+        print("\nNo se alcanzó convergencia dentro del número máximo de iteraciones")
+
+if __name__ == "__main__":
+    main()
