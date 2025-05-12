@@ -18,3 +18,10 @@ def main():
     h = 0.1
 
     resultado = cinco_puntos(x, h)
+ # Imprimir resultados
+    print("Función: x * sin(x)")
+    print(f"Punto de Derivación: {x}")
+    print(f"Resultado de la Derivada por el método de los Cinco Puntos: {resultado:.4g}")
+
+if __name__ == "__main__":
+    main()
