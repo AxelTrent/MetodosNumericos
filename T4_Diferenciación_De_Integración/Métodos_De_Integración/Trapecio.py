@@ -18,3 +18,12 @@ def trapecio(a, b, n):
 a = 0       # Límite inferior
 b = 2       # Límite superior
 n = 4       # Número de segmentos
+# Calcular la integral
+resultado = trapecio(a, b, n)
+
+# Imprimir resultados
+print("Función: x * sin(x)")
+print(f"Límite inferior: {a}")
+print(f"Límite superior: {b}")
+print(f"Número de segmentos: {n}")
+print(f"Resultado de la integral por el método del Trapecio: {resultado:.4g}")
