@@ -45,4 +45,21 @@ def main():
         print(f"Iteración {iteracion} (Diferencia Máxima: {max_diferencia:.3f}):")
         for i in range(n):
             print(f"x[{i}] = {x[i]:.3f}")
+# Verificar convergencia
+        if all(abs(x[i] - anterior[i]) <= tolerancia for i in range(n)):
+            print(f"\nConvergencia alcanzada en la iteración {iteracion}!")
+            break
 
+        # Copiar valores a 'anterior' para la siguiente iteración
+        for i in range(n):
+            anterior[i] = x[i]
+
+    if iteracion >= max_iteraciones:
+        print("\nAdvertencia: No se alcanzó convergencia dentro del número de iteraciones establecidas")
+
+    print("\nSolución Final:")
+    for i in range(n):
+        print(f"x[{i}] = {x[i]:.3f}")
+
+if __name__ == "__main__":
+    main()
