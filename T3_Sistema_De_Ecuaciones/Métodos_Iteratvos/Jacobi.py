@@ -26,3 +26,23 @@ def main():
     for i in range(n):
         x[i] = 0
         anterior[i] = 0
+
+ print("\nIniciando iteraciones de Jacobi....")
+    iteracion = 0
+
+    while iteracion < max_iteraciones:
+        iteracion += 1
+
+        for i in range(n):
+            suma = soluciones[i]
+            for j in range(n):
+                if j != i:
+                    suma -= matriz[i][j] * anterior[j]
+            x[i] = suma / matriz[i][i]
+
+        max_diferencia = max(abs(x[i] - anterior[i]) for i in range(n))
+
+        print(f"Iteración {iteracion} (Diferencia Máxima: {max_diferencia:.3f}):")
+        for i in range(n):
+            print(f"x[{i}] = {x[i]:.3f}")
+
