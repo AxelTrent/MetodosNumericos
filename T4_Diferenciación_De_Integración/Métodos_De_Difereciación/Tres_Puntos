@@ -1,1 +1,13 @@
+import math
+
+def funcion(x):
+    return x * math.sin(x)
+
+def derivada_analitica(x):
+    return math.sin(x) + x * math.cos(x)
+
+def tres_puntos(x, h):
+    fx1 = funcion(x + h)
+    fx2 = funcion(x - h)
+    return (fx1 - fx2) / (2 * h)
 
