@@ -1,1 +1,4 @@
+import math
 
+def funcion(x):
+    return x * math.sin(x)
