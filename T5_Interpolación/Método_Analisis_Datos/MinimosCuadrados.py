@@ -33,3 +33,29 @@ def calcular_minimos_cuadrados(x, y):
 # En main():
     m, b = calcular_minimos_cuadrados(x, y)
     print(f"Ecuación ajustada: y = {m:.4f}x + {b:.4f}\n")
+def calcular_error_absoluto(real, estimado):
+    return abs(real - estimado)
+
+def calcular_error_porcentual(real, error_abs):
+    return (error_abs / real) * 100
+
+def calcular_errores(x, y, m, b):
+    n = len(x)
+    suma_errores_porcentuales = 0.0
+
+    print(" x\t y real\t y estimado\t Error abs\t Error %")
+    print("-----------------------------------------------------")
+
+    for i in range(n):
+        y_estimado = m * x[i] + b
+        error_abs = calcular_error_absoluto(y[i], y_estimado)
+        error_porc = calcular_error_porcentual(y[i], error_abs)
+        suma_errores_porcentuales += error_porc
+
+        print(f"{x[i]:.1f}\t {y[i]:.1f}\t   {y_estimado:.2f}\t\t {error_abs:.2f}\t\t {error_porc:.2f}%")
+
+    promedio_error = suma_errores_porcentuales / n
+    print(f"\nError Porcentual promedio: {promedio_error:.2f}%")
+
+# En main():
+    calcular_errores(x, y, m, b)
