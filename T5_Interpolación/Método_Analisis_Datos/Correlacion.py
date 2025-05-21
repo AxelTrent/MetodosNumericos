@@ -28,3 +28,19 @@ def calcular_correlacion(x, y):
 # En main():
 r = calcular_correlacion(x, y)
 print(f"\nCoeficiente de correlación: {r:.4f}")
+def calcular_error_absoluto(r):
+    return 1 - abs(r)
+
+def calcular_error_porcentual(r):
+    return (1 - abs(r)) * 100
+
+# En main():
+error_absoluto = calcular_error_absoluto(r)
+error_porcentual = calcular_error_porcentual(r)
+
+print(f"Error Absoluto: {error_absoluto:.4f}")
+print(f"Error Porcentual: {error_porcentual:.2f}%")
+
+if r == 1:
+    print("Correlación Perfecta Positiva")
+# ... (otros casos)
