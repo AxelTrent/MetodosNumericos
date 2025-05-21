@@ -24,3 +24,20 @@ def interpolar_linealmente(x0, y0, x1, y1, x):
 print("\n=== CÁLCULO DE INTERPOLACIÓN ===")
 resultado = interpolar_linealmente(x0, y0, x1, y1, x_buscado)
 print(f"Valor interpolado en x = {x_buscado:.1f}: {resultado:.4f}")
+def calcular_error_absoluto(real, estimado):
+    """Calcula la diferencia absoluta entre valor real y estimado"""
+    return abs(real - estimado)
+
+def calcular_error_porcentual(real, estimado):
+    """Calcula el error porcentual respecto al valor real"""
+    return (abs(real - estimado) / real) * 100
+
+# Calcular y mostrar errores
+print("\n=== ANÁLISIS DE ERRORES ===")
+error_abs = calcular_error_absoluto(valor_real, resultado)
+error_porc = calcular_error_porcentual(valor_real, resultado)
+
+print(f"Valor real: {valor_real}")
+print(f"Valor interpolado: {resultado:.4f}")
+print(f"Error Absoluto: {error_abs:.4f}")
+print(f"Error Porcentual: {error_porc:.2f}%")
