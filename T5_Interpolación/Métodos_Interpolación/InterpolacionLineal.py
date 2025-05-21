@@ -14,3 +14,13 @@ valor_real = 9   # Valor real (para comparación)
 print("=== CONFIGURACIÓN INICIAL ===")
 print(f"Buscando valor en x = {x_buscado}")
 mostrar_puntos_utilizados(x0, y0, x1, y1)
+def interpolar_linealmente(x0, y0, x1, y1, x):
+    """Realiza la interpolación lineal entre dos puntos"""
+    # Fórmula: y = y0 + (y1-y0)/(x1-x0) * (x-x0)
+    pendiente = (y1 - y0) / (x1 - x0)
+    return y0 + pendiente * (x - x0)
+
+# Realizar interpolación
+print("\n=== CÁLCULO DE INTERPOLACIÓN ===")
+resultado = interpolar_linealmente(x0, y0, x1, y1, x_buscado)
+print(f"Valor interpolado en x = {x_buscado:.1f}: {resultado:.4f}")
