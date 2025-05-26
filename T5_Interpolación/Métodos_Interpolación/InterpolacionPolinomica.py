@@ -28,3 +28,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+def interpolar_polinomio(x, y, x_bus):
+    resultado = 0.0
+    for i in range(len(x)):
+        termino = y[i]
+        for j in range(len(x)):
+            if j != i:
+                termino *= (x_bus - x[j]) / (x[i] - x[j])
+        resultado += termino
+    return resultado
