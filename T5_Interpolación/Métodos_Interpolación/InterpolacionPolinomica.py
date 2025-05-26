@@ -37,3 +37,8 @@ def interpolar_polinomio(x, y, x_bus):
                 termino *= (x_bus - x[j]) / (x[i] - x[j])
         resultado += termino
     return resultado
+def calcular_error(valor_real, valor_interpolado):
+    return abs(valor_real - valor_interpolado)
+
+def calcular_error_porcentual(valor_real, valor_interpolado):
+    return (abs(valor_interpolado - valor_real) / abs(valor_real)) * 100
