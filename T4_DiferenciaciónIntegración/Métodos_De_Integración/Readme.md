@@ -61,7 +61,7 @@ $$
 \int_a^b f(x)\, dx \approx \frac{(b - a)}{2} \left[ f(a) + f(b) \right]
 $$
 
-[Ver código de Trapecio](/Trapecio.py)
+[Ver código de Trapecio](/T4_DiferenciaciónIntegración/Métodos_De_Integración/Trapecio.py)
 Para un solo intervalo, la fórmula calcula el área del trapecio formado por los puntos $(a, f(a))$ y $(b, f(b))$. En la regla compuesta, se suma el área de varios trapecios pequeños, ajustando los puntos intermedios.
 
 ---
