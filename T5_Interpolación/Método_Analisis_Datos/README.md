@@ -12,9 +12,10 @@ $$
 r = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sqrt{\sum{(x_i - \bar{x})^2} \sum{(y_i - \bar{y})^2}}}
 $$
 
+[Ver codigo de Correlacionr](/T5_Interpolación/Método_Analisis_Datos/Correlacion.py)
 ---
 
-[Ver codigo de Correlacionr](/T5_Interpolación/Método_Analisis_Datos/Correlacion.py)
+
 
 #### 📈 Mínimos Cuadrados
 
@@ -30,8 +31,9 @@ $$
 b = \frac{\sum{y_i} - m \sum{x_i}}{n}
 $$
 
----
 [Ver codigo de Minimos CUadrados](/T5_Interpolación/Método_Analisis_Datos/MinimosCuadrados.py)
+---
+
 #### 📉 Regresión Lineal
 
 Encuentra una recta que represente la relación entre dos variables, común para predicciones como ventas según publicidad.
