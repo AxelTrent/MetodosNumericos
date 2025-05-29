@@ -13,7 +13,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j^{(k+1)} - \sum_{j=i+1}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-[Ver código de Gauss_Seidel](Métodos_Iterativos/Gauss_Seidel.py)
+[Ver código de Gauss_Seidel](/T3_SistemaEcuaciones/Métodos_Iteratvos/Gauss_Seidel.py)
 
 ---
 
@@ -28,7 +28,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-[Ver código de Jacobi](Métodos_Iterativos/Jacobi.py)
+[Ver código de Jacobi](/T3_SistemaEcuaciones/Métodos_Iteratvos/Jacobi.py)
 
 ---
 
@@ -43,7 +43,7 @@ $$
 x_{n+1} = x_n - \frac{f(x_n) \cdot (x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}  
 $$
 
-[Ver código de Secante](Métodos_Iterativos/Secante.py)
+[Ver código de Secante](/T3_SistemaEcuaciones/Métodos_Iteratvos/Secante.py)
 
 **Ventajas:**
 
