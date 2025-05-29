@@ -61,4 +61,3 @@ $$
 
 ---
 
-¿Deseas agregar ejemplos resueltos con alguno de estos métodos?
