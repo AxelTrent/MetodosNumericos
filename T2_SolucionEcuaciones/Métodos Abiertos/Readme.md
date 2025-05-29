@@ -14,6 +14,7 @@ $$
 
 Donde \( x_n \) es la aproximación actual, \( f(x_n) \) es el valor de la función, y \( f'(x_n) \) es su derivada.
 
+[Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Abiertos/Newton-Raphson.py)
 ---
 
 #### 🔁 Método de Punto Fijo
@@ -28,4 +29,5 @@ $$
 
 Donde \( g(x) \) es una función reformulada a partir de la ecuación original \( f(x) = 0 \), como \( g(x) = x - f(x) \).
 
+[Ver codigo de Punto-Fijo](/T2_SolucionEcuaciones/Métodos Abiertos/Punto-Fijo.py)
 ---
