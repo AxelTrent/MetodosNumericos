@@ -7,120 +7,21 @@ Convierte el sistema de ecuaciones en una matriz triangular superior usando oper
 
 Fórmula:
 
-𝑥
-𝑖
-=
-𝑏
-𝑖
-−
-∑
-𝑗
-=
-1
-𝑖
-−
-1
-𝑎
-𝑖
-𝑗
-𝑥
-𝑗
-𝑎
-𝑖
-𝑖
-,
-𝑖
-=
-𝑛
-,
-𝑛
-−
-1
-,
-.
-.
-.
-,
-1
-x 
-i
-​
- = 
-a 
-ii
-​
- 
-b 
-i
-​
- −∑ 
-j=1
-i−1
-​
- a 
-ij
-​
- x 
-j
-​
- 
-​
- ,i=n,n−1,...,1
+latex
+Copiar
+Editar
+$$
+x_i = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j}{a_{ii}}, \quad i = n, n-1, \dots, 1
+$$
 Gauss-Jordan
 Descripción:
 Es una extensión del método de Gauss. No se detiene al obtener la forma triangular superior, sino que sigue transformando hasta que se obtiene la matriz identidad, lo que permite leer directamente las soluciones sin sustitución.
 
 Fórmula:
 
-𝑥
-𝑖
-=
-𝑏
-𝑖
-−
-∑
-𝑗
-=
-1
-,
-𝑗
-≠
-𝑖
-𝑛
-𝑎
-𝑖
-𝑗
-𝑥
-𝑗
-𝑎
-𝑖
-𝑖
-x 
-i
-​
- = 
-a 
-ii
-​
- 
-b 
-i
-​
- −∑ 
-j=1,j
-
-=i
-n
-​
- a 
-ij
-​
- x 
-j
-​
- 
-​
- 
+$$
+x_i = \frac{b_i - \sum_{j=1, j \ne i}^{n} a_{ij} x_j}{a_{ii}}
+$$
 Métodos Iterativos
 Estos métodos aproximan la solución comenzando con un valor inicial y mejorándolo en cada iteración. Se repiten hasta que la diferencia entre iteraciones es lo suficientemente pequeña.
 
@@ -130,152 +31,57 @@ Usa los valores más recientes calculados dentro de la misma iteración. Esto ha
 
 Fórmula:
 
-𝑥
-𝑖
-(
-𝑘
-+
-1
-)
-=
-𝑏
-𝑖
-−
-∑
-𝑗
-=
-1
-𝑖
-−
-1
-𝑎
-𝑖
-𝑗
-𝑥
-𝑗
-(
-𝑘
-+
-1
-)
-−
-∑
-𝑗
-=
-𝑖
-+
-1
-𝑛
-𝑎
-𝑖
-𝑗
-𝑥
-𝑗
-(
-𝑘
-)
-𝑎
-𝑖
-𝑖
-x 
-i
-(k+1)
-​
- = 
-a 
-ii
-​
- 
-b 
-i
-​
- −∑ 
-j=1
-i−1
-​
- a 
-ij
-​
- x 
-j
-(k+1)
-​
- −∑ 
-j=i+1
-n
-​
- a 
-ij
-​
- x 
-j
-(k)
-​
- 
-​
- 
+$$
+x_i^{(k+1)} = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j^{(k+1)} - \sum_{j=i+1}^{n} a_{ij} x_j^{(k)}}{a_{ii}}
+$$
 Jacobi
 Descripción:
 Cada variable se actualiza usando únicamente los valores de la iteración anterior. No se usan los nuevos valores hasta que termine la iteración, lo que hace que sea más fácil de implementar, pero puede requerir más iteraciones para converger.
 
 Fórmula:
 
-𝑥
-𝑖
+$$
+x_i^{(k+1)} = \frac{b_i - \sum_{j=1, j \ne i}^{n} a_{ij} x_j^{(k)}}{a_{ii}}
+$$
+Método de la Secante
+Descripción:
+Aproxima la derivada con dos puntos:
+
+latex
+Copiar
+Editar
+$$
+x_{n+1} = x_n - f(x_n) \cdot \frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}
+$$
+Ventajas:
+
+No necesita derivadas.
+
+Mejora la convergencia frente al punto fijo.
+
+Desventajas:
+
+Requiere dos valores iniciales.
+
+Puede fallar si 
+𝑓
 (
-𝑘
-+
-1
-)
-=
-𝑏
-𝑖
-−
-∑
-𝑗
-=
-1
-,
-𝑗
-≠
-𝑖
+𝑥
 𝑛
-𝑎
-𝑖
-𝑗
-𝑥
-𝑗
-(
-𝑘
 )
-𝑎
-𝑖
-𝑖
-x 
-i
-(k+1)
-​
- = 
-a 
-ii
-​
- 
-b 
-i
-​
- −∑ 
-j=1,j
-
-=i
+=
+𝑓
+(
+𝑥
+𝑛
+−
+1
+)
+f(x 
 n
 ​
- a 
-ij
+ )=f(x 
+n−1
 ​
- x 
-j
-(k)
-​
- 
-​
- 
+ ).
+
