@@ -1,10 +1,10 @@
-Estos métodos permiten examinar y modelar relaciones entre variables, facilitando la comprensión de conjuntos de datos y la generación de predicciones fundamentadas.
+Estos métodos permiten examinar relaciones entre variables para entender patrones en datos y realizar predicciones.
 
 📊 Correlación
-La correlación evalúa el grado de asociación lineal entre dos variables. Es una herramienta clave en estadística para identificar tendencias conjuntas, como la relación entre la temperatura y el consumo de energía.
+Mide si dos variables están relacionadas. Es útil en estadística para analizar conexiones, por ejemplo, entre clima y consumo energético.
 
 Fórmula (coeficiente de correlación de Pearson):
-
+$$
 𝑟
 =
 ∑
@@ -75,21 +75,23 @@ y
 ˉ
 ​
  )
-​
+​$$
  
 📈 Mínimos Cuadrados
-El método de los mínimos cuadrados ajusta una función (generalmente lineal) a un conjunto de datos minimizando la suma de los cuadrados de los errores.
+Ajusta una curva a los datos para modelar relaciones. Se usa en economía y física para predecir tendencias.
 
-Fórmulas (para regresión lineal):
-
+Fórmulas (pendiente y ordenada para regresión lineal):
+$$
 𝑚
 =
 𝑛
 ∑
+(
 𝑥
 𝑖
 𝑦
 𝑖
+)
 −
 ∑
 𝑥
@@ -99,9 +101,11 @@ Fórmulas (para regresión lineal):
 𝑖
 𝑛
 ∑
+(
 𝑥
 𝑖
 2
+)
 −
 (
 ∑
@@ -110,23 +114,23 @@ Fórmulas (para regresión lineal):
 )
 2
 m= 
-n∑x 
+n∑(x 
 i
 2
 ​
- −(∑x 
+ )−(∑x 
 i
 ​
  ) 
 2
  
-n∑x 
+n∑(x 
 i
 ​
  y 
 i
 ​
- −∑x 
+ )−∑x 
 i
 ​
  ∑y 
@@ -155,13 +159,13 @@ i
 i
 ​
  
-​
+​$$
  
 📉 Regresión Lineal
-La regresión lineal busca modelar la relación entre una variable independiente y una dependiente mediante una línea recta.
+Encuentra una recta que represente la relación entre dos variables, común para hacer predicciones, por ejemplo, ventas según publicidad.
 
-Fórmula general:
-
+Fórmula:
+$$
 𝑦
 =
 𝑚
@@ -169,3 +173,4 @@ Fórmula general:
 +
 𝑏
 y=mx+b
+$$
