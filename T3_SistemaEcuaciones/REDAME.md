@@ -17,9 +17,10 @@ Estos métodos ofrecen la solución exacta (dentro de la precisión numérica) e
 #### 📂 Métodos Iterativos
 - **Gauss-Seidel**  
 - **Jacobi**  
- [Ver Carpeta](/T3_SistemaEcuaciones/Métodos_Iteratvos/)
+ 
 Estos métodos generan aproximaciones a la solución mediante iteraciones. Son útiles para sistemas grandes y dispersos, pero requieren cumplir condiciones de convergencia.
 
+ [Ver Carpeta](/T3_SistemaEcuaciones/Métodos_Iteratvos/)
 ### Contenido
 - Archivos de código en Python que implementan cada técnica.
 
