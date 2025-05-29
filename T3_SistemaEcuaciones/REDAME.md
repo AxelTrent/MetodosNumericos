@@ -17,7 +17,7 @@ x_i = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j}{a_{ii}}, \quad i = n, n-1, \ldots
 $$
 
 
-https://github.com/AxelTrent/MetodosNumericos/blob/master/T3_SistemaEcuaciones/M%C3%A9todos_Directos/Eliminacion_Gaussiana.py
+
 ---
 
 ### Gauss-Jordan
@@ -31,8 +31,7 @@ $$
 x_i = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j}{a_{ii}}  
 $$
 
-
-
+Métodos_Directos/GaussJordan.py
 ---
 
 ## Métodos Iterativos
