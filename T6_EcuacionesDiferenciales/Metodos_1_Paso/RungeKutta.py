@@ -67,4 +67,19 @@ def evaluar_factor(expr):
     except:
         print(f"Error al evaluar factor: {expr}")
         return 0
+def runge_kutta(funcion, x0, y0, h, pasos):
+    x = x0
+    y = y0
+
+    for i in range(pasos):
+        k1 = h * evaluar_funcion(funcion, x, y)
+        k2 = h * evaluar_funcion(funcion, x + h / 2.0, y + k1 / 2.0)
+        k3 = h * evaluar_funcion(funcion, x + h / 2.0, y + k2 / 2.0)
+        k4 = h * evaluar_funcion(funcion, x + h, y + k3)
+
+        y += (k1 + 2 * k2 + 2 * k3 + k4) / 6.0
+        x += h
+
+        print(f"Paso {i + 1}: x = {x:.5f}, y = {y:.5f}")
+    return y
 
