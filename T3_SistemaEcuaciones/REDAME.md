@@ -8,14 +8,16 @@ Los métodos se organizan en dos categorías principales:
 
 #### 📂 Métodos Directos
 - **Eliminación Gaussiana**  
-- **Gauss-Jordan**  
+- **Gauss-Jordan**
+
+  [Ver Carpeta](/T3_SistemaEcuaciones/Métodos_Directos/)
 
 Estos métodos ofrecen la solución exacta (dentro de la precisión numérica) en un número definido de pasos, siempre que no haya errores de redondeo.
 
 #### 📂 Métodos Iterativos
 - **Gauss-Seidel**  
 - **Jacobi**  
-
+ [Ver Carpeta](/T3_SistemaEcuaciones/Métodos_Iteratvos/)
 Estos métodos generan aproximaciones a la solución mediante iteraciones. Son útiles para sistemas grandes y dispersos, pero requieren cumplir condiciones de convergencia.
 
 ### Contenido
