@@ -19,7 +19,7 @@ $$
 
 Donde $h$ es el tamaño del paso entre los puntos, y $x_0$ es el punto donde se calcula la derivada. El denominador $12h$ y los coeficientes $-1, 8, -8, 1$ aseguran que el error de truncamiento sea del orden de $h^4$, lo que lo hace mucho más preciso que métodos más simples.
 
-[Ver código de Cinco Puntos](/Cinco_Puntos.py)
+[Ver código de Cinco Puntos](/T4_DiferenciaciónIntegración/Métodos_De_Difereciación/Cinco_Puntos.py)
 ---
 
 ### **Tres Puntos**
@@ -32,9 +32,10 @@ $$
 f'(x_0) \approx \frac{f(x_0 + h) - f(x_0 - h)}{2h}
 $$
 
-[Ver código de Tres puntos](/Métodos_De_Difereciación/Tres_Puntos.py)
+
 
 Aquí, $h$ es el tamaño del paso, y la fórmula mide la diferencia entre los valores de la función a la derecha y a la izquierda del punto $x_0$, dividiendo por el doble del paso para obtener la pendiente aproximada.
 
+[Ver código de Tres puntos](/T4_DiferenciaciónIntegración/Métodos_De_Difereciación/Tres_Puntos.py)
 ---
 
