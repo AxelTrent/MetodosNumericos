@@ -19,7 +19,7 @@ $$
 
 Donde $h$ es el tamaño del paso entre los puntos, y $x_0$ es el punto donde se calcula la derivada. El denominador $12h$ y los coeficientes $-1, 8, -8, 1$ aseguran que el error de truncamiento sea del orden de $h^4$, lo que lo hace mucho más preciso que métodos más simples.
 
-[Ver código de Cinco Puntos](Métodos_De_Diferenciación/Cinco_Puntos.py)
+[Ver código de Cinco Puntos](Métodos_De_Difereciación/Cinco_Puntos.py)
 ---
 
 ### **Tres Puntos**
