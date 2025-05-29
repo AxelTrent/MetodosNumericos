@@ -27,7 +27,7 @@ Variante del método de Simpson que usa cuatro puntos para mayor precisión en i
 Método básico que aproxima la integral como una suma de trapecios bajo la curva de la función.
 
 ### Contenido
-- Archivos de código en Python que implementan cada técnica, incluyendo `Cinco_Puntos.py`, `Tres_Puntos.py`, `CuadraturaGaussiana.py`, `Simpson1_3.py`, `Simpson3_8.py` y `Trapecio.py`.
+- Archivos de código en Python que implementan cada técnica.
 
 ### Recomendación
 Revisa el archivo `README.md` dentro de cada carpeta para obtener más detalles sobre la implementación y uso de cada método.
