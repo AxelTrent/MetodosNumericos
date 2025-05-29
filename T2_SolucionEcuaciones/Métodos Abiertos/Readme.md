@@ -12,7 +12,7 @@ $$
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
 $$
 
-Donde `x_n` es la aproximación actual, `f(x_n)` es el valor de la función, y `f'(x_n)` es su derivada.
+Donde \( x_n \) es la aproximación actual, \( f(x_n) \) es el valor de la función, y \( f'(x_n) \) es su derivada.
 
 ---
 
@@ -26,6 +26,6 @@ $$
 x_{n+1} = g(x_n)
 $$
 
-Donde `g(x)` es una función reformulada a partir de la ecuación original `f(x) = 0`, como `g(x) = x - f(x)`.
+Donde \( g(x) \) es una función reformulada a partir de la ecuación original \( f(x) = 0 \), como \( g(x) = x - f(x) \).
 
 ---
