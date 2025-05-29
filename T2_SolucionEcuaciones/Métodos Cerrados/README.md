@@ -13,6 +13,7 @@ x_{n+1} = \frac{a_n + b_n}{2}
 $$
 
 Donde \( a_n \) y \( b_n \) son los extremos del intervalo actual, y se elige el nuevo intervalo según el signo de \( f(x) \).
+
 [Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Cerrados/Método de Bisección.xlsx)
 ---
 
