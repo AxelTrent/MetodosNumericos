@@ -15,6 +15,7 @@ $$
 Donde \( x_n \) es la aproximación actual, \( f(x_n) \) es el valor de la función, y \( f'(x_n) \) es su derivada.
 
 [Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Abiertos/Newton-Raphson.py)
+
 ---
 
 #### 🔁 Método de Punto Fijo
