@@ -1,35 +1,25 @@
-\textbf{Tema 3: T\'ecnicas para Resolver Sistemas de Ecuaciones Lineales}
+## Tema 3: Técnicas para Resolver Sistemas de Ecuaciones Lineales
 
-En este apartado se exploraron diversos m\'etodos num\'ericos destinados a la resoluci\'on de sistemas de ecuaciones lineales, los cuales son esenciales para el an\'alisis matem\'atico y computacional. Estas t\'ecnicas facilitan la obtenci\'on de soluciones aproximadas en sistemas extensos o complejos que no se pueden resolver de forma anal\'itica.
+En este tema se estudiaron diferentes métodos numéricos para resolver sistemas de ecuaciones lineales, herramientas clave en el análisis matemático y computacional. Estos métodos son ideales para encontrar soluciones aproximadas en sistemas grandes o complicados de resolver analíticamente.
 
-\textbf{Clasificaci\'on de las T\'ecnicas}
+### Clasificación de las Técnicas
 
-Los m\'etodos se dividen en dos categor\'ias principales:
+Los métodos se organizan en dos categorías principales:
 
-\textbf{\ding{82} M\'etodos Directos}
+#### 📂 Métodos Directos
+- **Eliminación Gaussiana**  
+- **Gauss-Jordan**  
 
-\begin{itemize}
-    \item Eliminaci\'on Gaussiana
-    \item Gauss-Jordan
-\end{itemize}
+Estos métodos ofrecen la solución exacta (dentro de la precisión numérica) en un número definido de pasos, siempre que no haya errores de redondeo.
 
-Estos m\'etodos logran determinar la soluci\'on exacta (en t\'erminos num\'ericos) en un n\'umero finito de pasos, siempre que no se presenten errores de redondeo.
+#### 📂 Métodos Iterativos
+- **Gauss-Seidel**  
+- **Jacobi**  
 
-\textbf{\ding{82} M\'etodos Iterativos}
+Estos métodos generan aproximaciones a la solución mediante iteraciones. Son útiles para sistemas grandes y dispersos, pero requieren cumplir condiciones de convergencia.
 
-\begin{itemize}
-    \item Gauss-Seidel
-    \item Jacobi
-\end{itemize}
+### Contenido
+- Archivos de código en Java que implementan cada técnica.
 
-Estas t\'ecnicas se aproximan a la soluci\'on mediante un proceso iterativo. Son especialmente \'utiles para sistemas grandes y dispersos, y requieren cumplir con una condici\'on de convergencia.
-
-\textbf{Contenido}
-
-\begin{itemize}
-    \item Archivos de c\'odigo en Java que implementan cada m\'etodo.
-\end{itemize}
-
-\textbf{Recomendaci\'on}
-
-Se sugiere revisar el archivo README ubicado en cada carpeta para obtener m\'as informaci\'on sobre los m\'etodos espec\'ificos.
+### Recomendación
+Consulta el archivo `README` dentro de cada carpeta para más detalles sobre cada método.
