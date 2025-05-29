@@ -13,6 +13,8 @@ Método que aproxima la derivada de una función usando una fórmula basada en c
 - **Tres Puntos**  
 Método que utiliza una fórmula de tres puntos para calcular derivadas numéricas, útil para problemas más simples.
 
+[Ver Carpeta](/T4_DiferenciaciónIntegración/Métodos_De_Difereciación/)
+
 #### 📂 Métodos de Integración
 - **Cuadratura Gaussiana**  
 Técnica avanzada que aproxima integrales usando puntos y pesos específicos para maximizar la precisión.
@@ -25,6 +27,8 @@ Variante del método de Simpson que usa cuatro puntos para mayor precisión en i
 
 - **Trapecio**  
 Método básico que aproxima la integral como una suma de trapecios bajo la curva de la función.
+
+[Ver Carpeta](/T4_DiferenciaciónIntegración/Métodos_De_Integración/)
 
 ### Contenido
 - Archivos de código en Python que implementan cada técnica.
