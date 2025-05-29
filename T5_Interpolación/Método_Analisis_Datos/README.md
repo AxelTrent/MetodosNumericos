@@ -12,7 +12,7 @@ $$
 r = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sqrt{\sum{(x_i - \bar{x})^2} \sum{(y_i - \bar{y})^2}}}
 $$
 
-[Ver codigo de Correlacionr](/T5_Interpolación/Método_Analisis_Datos/Correlacion.py)
+[Ver codigo de Correlación](/T5_Interpolación/Método_Analisis_Datos/Correlacion.py)
 ---
 
 
@@ -31,7 +31,7 @@ $$
 b = \frac{\sum{y_i} - m \sum{x_i}}{n}
 $$
 
-[Ver codigo de Minimos CUadrados](/T5_Interpolación/Método_Analisis_Datos/MinimosCuadrados.py)
+[Ver codigo de Minimos Cuadrados](/T5_Interpolación/Método_Analisis_Datos/MinimosCuadrados.py)
 ---
 
 #### 📉 Regresión Lineal
