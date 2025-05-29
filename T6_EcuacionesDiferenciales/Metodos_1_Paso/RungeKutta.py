@@ -83,3 +83,18 @@ def runge_kutta(funcion, x0, y0, h, pasos):
         print(f"Paso {i + 1}: x = {x:.5f}, y = {y:.5f}")
     return y
 
+def main():
+    print("Método Runge-Kutta sin eval(), funciones básicas")
+    funcion = input("Ingresa la función f(x,y) (ej: x + y, sin(x) - y, x * y): ")
+    x0 = float(input("Ingresa x0: "))
+    y0 = float(input("Ingresa y0: "))
+    h = float(input("Ingresa paso h: "))
+    pasos = int(input("Número de pasos: "))
+
+    resultado = runge_kutta(funcion, x0, y0, h, pasos)
+    print(f"Resultado final: y({x0 + pasos * h:.5f}) = {resultado:.5f}")
+
+if __name__ == "__main__":
+    main()
+
+
