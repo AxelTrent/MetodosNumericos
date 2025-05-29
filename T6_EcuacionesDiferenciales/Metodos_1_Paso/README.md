@@ -24,4 +24,4 @@ $$
 Este método evalúa la derivada en varios puntos dentro del intervalo.  
 Ofrece **alta precisión** con un solo paso por iteración.
 
-[Ver codigo de Euler](/T6_EcuacionesDiferenciales/Metodos_Sistemas_Ecuaciones/RungeKutta.py)
+[Ver codigo de Euler](/T6_EcuacionesDiferenciales/Metodos_1_Paso/RungeKutta.py)
