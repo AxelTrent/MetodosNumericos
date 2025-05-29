@@ -32,6 +32,8 @@ $$
 f'(x_0) \approx \frac{f(x_0 + h) - f(x_0 - h)}{2h}
 $$
 
+[Ver código de Cinco Puntos](/Métodos_De_Difereciación/Tres_Puntos.py)
+
 Aquí, $h$ es el tamaño del paso, y la fórmula mide la diferencia entre los valores de la función a la derecha y a la izquierda del punto $x_0$, dividiendo por el doble del paso para obtener la pendiente aproximada.
 
 ---
