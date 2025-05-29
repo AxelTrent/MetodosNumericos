@@ -1,3 +1,8 @@
+$$
+f'(x) \approx \frac{-f(x+2h) + 8f(x+h) - 8f(x-h) + f(x-2h)}{12h}
+$$
+
+
 ## Métodos Directos
 Estos métodos encuentran la solución exacta (dentro de la precisión numérica) en un número finito de pasos. Se basan en transformar el sistema de ecuaciones para resolverlo directamente.
 
