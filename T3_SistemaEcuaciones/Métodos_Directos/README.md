@@ -16,7 +16,7 @@ $$
 x_i = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j}{a_{ii}}, \quad i = n, n-1, \ldots, 1  
 $$
 
-[Ver código de Eliminación Gaussiana](/Métodos_Directos/Eliminacion_Gaussiana.py)
+[Ver código de Eliminación Gaussiana](/T3_SistemaEcuaciones/Métodos_Directos/Eliminacion_Gaussiana.py)
 
 ---
 
@@ -31,7 +31,7 @@ $$
 x_i = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j}{a_{ii}}  
 $$
 
-[Ver código de Gauss-Jordan](Métodos_Directos/GaussJordan.py)
+[Ver código de Gauss-Jordan](/T3_SistemaEcuaciones/Métodos_Directos/GaussJordan.py)
 
 
 ---
