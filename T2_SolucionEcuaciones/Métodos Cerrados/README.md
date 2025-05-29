@@ -16,7 +16,7 @@ Donde \( a_n \) y \( b_n \) son los extremos del intervalo actual, y se elige el
 
 
 ---
-[Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Cerrados/Método de Bisección.xlsx)
+[Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Cerrados/Metodo_Biseccion.py)
 #### ➗ Método de Regla Falsa
 
 Similar a la bisección, este método usa una línea recta para aproximar la raíz dentro del intervalo, ofreciendo una convergencia más rápida en algunos casos.
