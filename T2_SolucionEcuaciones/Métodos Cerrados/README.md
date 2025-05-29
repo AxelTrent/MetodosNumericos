@@ -14,9 +14,9 @@ $$
 
 Donde \( a_n \) y \( b_n \) son los extremos del intervalo actual, y se elige el nuevo intervalo según el signo de \( f(x) \).
 
-[Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Cerrados/Método de Bisección.xlsx)
----
 
+---
+[Ver codigo de Newton-Raphson](/T2_SolucionEcuaciones/Métodos Cerrados/Método de Bisección.xlsx)
 #### ➗ Método de Regla Falsa
 
 Similar a la bisección, este método usa una línea recta para aproximar la raíz dentro del intervalo, ofreciendo una convergencia más rápida en algunos casos.
