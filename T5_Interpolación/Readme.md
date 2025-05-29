@@ -15,6 +15,8 @@ Los métodos de análisis de datos permiten modelar y entender las relaciones en
 - **Regresión Lineal**  
   La regresión lineal es un enfoque específico que busca encontrar una recta que represente la relación entre dos variables, una dependiente y otra independiente. Es ideal para hacer predicciones simples, como estimar ventas basadas en publicidad o analizar cómo afecta la altura al peso corporal, y es una herramienta básica en el aprendizaje automático y el análisis de datos.
 
+  [Ver Carpeta](/T5_Interpolación/Método_Analisis_Datos/)
+
 ### 📂 Métodos de Interpolación
 
 Los métodos de interpolación permiten estimar valores de una función en puntos intermedios cuando solo se tienen datos en algunos lugares específicos. Son útiles para llenar huecos en la información, crear gráficos suaves o simular comportamientos continuos a partir de mediciones discretas.
@@ -24,6 +26,8 @@ Los métodos de interpolación permiten estimar valores de una función en punto
 
 - **Interpolación Polinómica**  
   Este método construye una curva suave que pasa por todos los puntos dados, utilizando un polinomio que puede adaptarse a más de dos puntos. Es más sofisticado y se emplea en ingeniería para diseñar trayectorias o en el análisis de señales, aunque puede volverse menos preciso si hay muchos puntos o los datos son irregulares.
+
+  [Ver Carpeta](/T5_Interpolación/Métodos_Interpolación/)
 
 ### Contenido
 - Archivos de código en Python que implementan cada técnica: `Correlacion.py`, `MinimosCuadrados.py`, `RegresionLineal.py`, `InterpolacionLineal.py` y `InterpolacionPolinomica.py`.
