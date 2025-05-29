@@ -77,10 +77,8 @@ y
  )
 ​
  
-Donde r indica el grado de correlación lineal, y x_i, y_i representan los valores individuales de las variables con sus medias \bar{x} y \bar{y} respectivamente. El valor de r oscila entre -1 (correlación negativa perfecta) y 1 (positiva perfecta).
-
 📈 Mínimos Cuadrados
-El método de los mínimos cuadrados ajusta una función (generalmente lineal) a un conjunto de datos minimizando la suma de los cuadrados de los errores. Es ampliamente utilizado en ciencias físicas, economía y predicción de tendencias.
+El método de los mínimos cuadrados ajusta una función (generalmente lineal) a un conjunto de datos minimizando la suma de los cuadrados de los errores.
 
 Fórmulas (para regresión lineal):
 
@@ -159,10 +157,8 @@ i
  
 ​
  
-Donde m representa la pendiente de la recta ajustada y b la ordenada al origen. El método proporciona una base sólida para construir modelos predictivos.
-
 📉 Regresión Lineal
-La regresión lineal busca modelar la relación entre una variable independiente y una dependiente mediante una línea recta. Es fundamental en análisis de datos para pronósticos como ventas, crecimiento o consumo.
+La regresión lineal busca modelar la relación entre una variable independiente y una dependiente mediante una línea recta.
 
 Fórmula general:
 
@@ -173,4 +169,3 @@ Fórmula general:
 +
 𝑏
 y=mx+b
-Donde m y b se calculan mediante mínimos cuadrados. Este modelo facilita la estimación de valores futuros en función de variables explicativas.
