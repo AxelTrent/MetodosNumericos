@@ -1,4 +1,3 @@
-Aquí tienes tu contenido corregido para que **todas las fórmulas estén en el formato `$$...$$`** como el ejemplo que diste (`$$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$$`), sin ningún uso del formato `\( ... \)`:
 
 ---
 
@@ -17,7 +16,7 @@ $$
 x_i = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j}{a_{ii}}, \quad i = n, n-1, \ldots, 1  
 $$
 
-![Fórmula Eliminación Gaussiana](images/gauss_elimination.png)
+
 
 ---
 
@@ -32,7 +31,7 @@ $$
 x_i = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j}{a_{ii}}  
 $$
 
-![Fórmula Gauss-Jordan](images/gauss_jordan.png)
+
 
 ---
 
@@ -51,7 +50,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j^{(k+1)} - \sum_{j=i+1}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-![Fórmula Gauss-Seidel](images/gauss_seidel.png)
+
 
 ---
 
@@ -66,7 +65,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-![Fórmula Jacobi](images/jacobi.png)
+
 
 ---
 
@@ -81,7 +80,7 @@ $$
 x_{n+1} = x_n - \frac{f(x_n) \cdot (x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}  
 $$
 
-![Fórmula Secante](images/secant.png)
+
 
 **Ventajas:**
 
