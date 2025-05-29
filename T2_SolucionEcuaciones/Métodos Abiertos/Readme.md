@@ -30,5 +30,6 @@ $$
 
 Donde \( g(x) \) es una función reformulada a partir de la ecuación original \( f(x) = 0 \), como \( g(x) = x - f(x) \).
 
-[Ver codigo de Punto-Fijo](/T2_SolucionEcuaciones/Métodos Abiertos/Punto-Fijo.py)
+[Ver codigo de Punto Fijo](/T2_SolucionEcuaciones/Métodos Abiertos/Punto-Fijo.py)
+
 ---
