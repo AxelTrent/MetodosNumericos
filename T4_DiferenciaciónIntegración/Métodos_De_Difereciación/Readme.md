@@ -1,10 +1,3 @@
-Perfecto. Aquí tienes el texto ajustado **con todas las fórmulas exactamente en el formato solicitado** (`$$...$$` con saltos antes y después), como en:
-
-```markdown
-$$
-f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-$$
-```
 
 ---
 
@@ -26,6 +19,7 @@ $$
 
 Donde $h$ es el tamaño del paso entre los puntos, y $x_0$ es el punto donde se calcula la derivada. El denominador $12h$ y los coeficientes $-1, 8, -8, 1$ aseguran que el error de truncamiento sea del orden de $h^4$, lo que lo hace mucho más preciso que métodos más simples.
 
+[Ver codigo de Cinco Puntos](/Métodos_De_Diferenciación/Cinco_Puntos.py)
 ---
 
 ### **Tres Puntos**
@@ -42,4 +36,3 @@ Aquí, $h$ es el tamaño del paso, y la fórmula mide la diferencia entre los va
 
 ---
 
-¿Deseas que agregue también las fórmulas para derivadas **hacia adelante** y **hacia atrás**, o estás listo para tu entrega?
