@@ -18,7 +18,7 @@ $$
 $$
 
 Donde $w_i$ son los pesos y $x_i$ son los puntos de Gauss, que dependen del intervalo $[a, b]$ y del número de puntos $n$. Para aplicarlo, se transforma el intervalo $[a, b]$ al intervalo estándar $[-1, 1]$, y los valores de $w_i$ y $x_i$ se obtienen de tablas predefinidas o mediante algoritmos específicos.
-[Ver código de Cuadratura Gaussioana](/Métodos_De_Integracion/CuadraturaGaussiana.py)
+[Ver código de Cuadratura Gaussiana](/T4_DiferenciaciónIntegración/Métodos_De_Integración/CuadraturaGaussiana.py)
 ---
 
 ### **Simpson 1/3**
@@ -33,7 +33,7 @@ $$
 
 Donde $h = \frac{b - a}{2}$, y los puntos son $x_0 = a$, $x_1 = \frac{a + b}{2}$, $x_2 = b$. El coeficiente 4 para el punto central refleja que la parábola da más peso al valor en el medio, mejorando la precisión de la aproximación.
 
-[Ver código de Simpson 1/3](/Simpson1_3.py)
+[Ver código de Simpaon 1/3](/T4_DiferenciaciónIntegración/Métodos_De_Integración/Simpson1_3.py)
 ---
 
 ### **Simpson 3/8**
@@ -48,7 +48,7 @@ $$
 
 Donde $h = \frac{b - a}{3}$, y los puntos son equidistantes: $x_0 = a$, $x_1 = a + h$, $x_2 = a + 2h$, $x_3 = b$. Los coeficientes 3 para los puntos intermedios reflejan la contribución del polinomio cúbico ajustado.
 
-[Ver código de Simpson 3/8](/Simpson3_8.py)
+[Ver código de Simpaon 3/8](/T4_DiferenciaciónIntegración/Métodos_De_Integración/Simpson3_8.py)
 ---
 
 ### **Trapecio**
@@ -61,9 +61,10 @@ $$
 \int_a^b f(x)\, dx \approx \frac{(b - a)}{2} \left[ f(a) + f(b) \right]
 $$
 
-[Ver código de Trapecio](/T4_DiferenciaciónIntegración/Métodos_De_Integración/Trapecio.py)
+
 Para un solo intervalo, la fórmula calcula el área del trapecio formado por los puntos $(a, f(a))$ y $(b, f(b))$. En la regla compuesta, se suma el área de varios trapecios pequeños, ajustando los puntos intermedios.
 
+[Ver código de Trapecio](/T4_DiferenciaciónIntegración/Métodos_De_Integración/Trapecio.py)
 ---
 
 
