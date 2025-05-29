@@ -12,6 +12,7 @@ $$
 f(x) = f(x_0) + \frac{f(x_1) - f(x_0)}{x_1 - x_0} (x - x_0)
 $$
 
+[Ver codigo de Correlacionr](/T5_Interpolación/Métodos_Interpolación/InterpolacionLineal.py)
 ---
 
 #### 📐 Interpolación Polinómica
@@ -24,11 +25,8 @@ $$
 P(x) = \sum_{i=0}^n f(x_i) \prod_{j \neq i} \frac{x - x_j}{x_i - x_j}
 $$
 
+[Ver codigo de Correlacionr](/T5_Interpolación/Métodos_Interpolación/InterpolacionPolinomica.py)
 ---
 
-### 📄 Contenido
-
-Archivos de código en Python:  
-`Correlacion.py`, `MinimosCuadrados.py`, `RegresionLineal.py`, `InterpolacionLineal.py`, `InterpolacionPolinomica.py`
 
 ---
