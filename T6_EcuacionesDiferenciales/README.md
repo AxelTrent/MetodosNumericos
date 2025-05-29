@@ -15,6 +15,7 @@ Los **métodos de un paso** utilizan únicamente la información del **paso actu
   - Evalúa la derivada en varios puntos dentro del intervalo.  
   - Ofrece **alta precisión** con un solo paso por iteración.
 
+[Ver Carpeta](/T6_EcuacionesDiferenciales/Metodos_1_Paso/)
 ---
 
 ## 🔁 Métodos de Pasos Múltiples
