@@ -1,3 +1,6 @@
+$$
+f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
+$$
 ## Métodos Directos
 Estos métodos encuentran la solución exacta (dentro de la precisión numérica) en un número finito de pasos. Se basan en transformar el sistema de ecuaciones para resolverlo directamente.
 
