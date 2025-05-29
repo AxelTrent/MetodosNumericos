@@ -14,6 +14,8 @@ $$
 
 ---
 
+[Ver codigo de Correlacionr](/T5_Interpolación/Método_Analisis_Datos/Correlacion.py)
+
 #### 📈 Mínimos Cuadrados
 
 Ajusta una curva a los datos para modelar relaciones, usado en economía o física para predecir tendencias.
@@ -29,7 +31,7 @@ b = \frac{\sum{y_i} - m \sum{x_i}}{n}
 $$
 
 ---
-
+[Ver codigo de Minimos CUadrados](/T5_Interpolación/Método_Analisis_Datos/MinimosCuadrados.py)
 #### 📉 Regresión Lineal
 
 Encuentra una recta que represente la relación entre dos variables, común para predicciones como ventas según publicidad.
@@ -40,4 +42,5 @@ $$
 y = mx + b
 $$
 
+[Ver codigo de Regresión Lineal](/T5_Interpolación/Método_Analisis_Datos/RegresionLineal.py)
 ---
