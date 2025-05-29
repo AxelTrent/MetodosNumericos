@@ -29,6 +29,8 @@ $$
 
 Donde \( a_n \) y \( b_n \) son los extremos del intervalo, y el nuevo punto se calcula con la intersección de la secante.
 
+/T2_SolucionEcuaciones/Métodos Cerrados/Metodo_Flasa.py
+
 ---
 
 
