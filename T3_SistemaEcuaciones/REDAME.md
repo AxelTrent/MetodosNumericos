@@ -31,7 +31,9 @@ $$
 x_i = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j}{a_{ii}}  
 $$
 
-Métodos_Directos/GaussJordan.py
+[Ver código de Gauss-Jordan](Métodos_Directos/GaussJordan.py)
+
+
 ---
 
 ## Métodos Iterativos
@@ -49,7 +51,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1}^{i-1} a_{ij} x_j^{(k+1)} - \sum_{j=i+1}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-
+[Ver código de Gauss_Seidel](Métodos_Iterativos/Gauss_Seidel.py)
 
 ---
 
@@ -64,7 +66,7 @@ $$
 x_i^{(k+1)} = \frac{b_i - \sum_{j=1, j \neq i}^{n} a_{ij} x_j^{(k)}}{a_{ii}}  
 $$
 
-
+[Ver código de Jacobi](Métodos_Iterativos/Jacobi.py)
 
 ---
 
@@ -79,7 +81,7 @@ $$
 x_{n+1} = x_n - \frac{f(x_n) \cdot (x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}  
 $$
 
-
+[Ver código de Secante](Métodos_Iterativos/Secante.py)
 
 **Ventajas:**
 
