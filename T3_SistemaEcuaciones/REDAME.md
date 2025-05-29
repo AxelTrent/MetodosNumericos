@@ -19,7 +19,7 @@ Estos métodos ofrecen la solución exacta (dentro de la precisión numérica) e
 Estos métodos generan aproximaciones a la solución mediante iteraciones. Son útiles para sistemas grandes y dispersos, pero requieren cumplir condiciones de convergencia.
 
 ### Contenido
-- Archivos de código en Java que implementan cada técnica.
+- Archivos de código en Python que implementan cada técnica.
 
 ### Recomendación
 Consulta el archivo `README` dentro de cada carpeta para más detalles sobre cada método.
