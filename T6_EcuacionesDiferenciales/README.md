@@ -30,7 +30,8 @@ Esto mejora la eficiencia al reducir la cantidad de evaluaciones de la función 
   - Usa diferencias finitas para aproximar soluciones.  
   - Ideal cuando se desea **mayor precisión con menos evaluaciones**.  
   - Requiere **valores iniciales previos**.
-
+  - 
+[Ver Carpeta](/T6_EcuacionesDiferenciales/Metodos_Pasos_Multiples/)
 ---
 
 ## 🔗 Métodos para Sistemas de Ecuaciones
@@ -44,6 +45,7 @@ Estos métodos están diseñados para resolver **sistemas de EDOs**, donde múlt
   - Actualiza todas las variables del sistema en cada paso.  
   - Método básico, de **primer orden**, con menor precisión que otros, pero útil para problemas simples o con fines educativos.
 
+[Ver Carpeta](/T6_EcuacionesDiferenciales/Metodos_Sistemas_Ecuaciones/)
 ---
 
 > 📎 Nota: Los métodos de un paso son más sencillos y directos. Los métodos de pasos múltiples requieren información histórica pero mejoran la eficiencia. Para sistemas, es fundamental considerar el acoplamiento de variables.
