@@ -4,7 +4,7 @@ Estos métodos permiten examinar relaciones entre variables para entender patron
 Mide si dos variables están relacionadas. Es útil en estadística para analizar conexiones, por ejemplo, entre clima y consumo energético.
 
 Fórmula (coeficiente de correlación de Pearson):
-$$
+
 𝑟
 =
 ∑
@@ -75,13 +75,13 @@ y
 ˉ
 ​
  )
-​$$
+​
  
 📈 Mínimos Cuadrados
 Ajusta una curva a los datos para modelar relaciones. Se usa en economía y física para predecir tendencias.
 
 Fórmulas (pendiente y ordenada para regresión lineal):
-$$
+
 𝑚
 =
 𝑛
@@ -159,13 +159,13 @@ i
 i
 ​
  
-​$$
+​
  
 📉 Regresión Lineal
 Encuentra una recta que represente la relación entre dos variables, común para hacer predicciones, por ejemplo, ventas según publicidad.
 
 Fórmula:
-$$
+
 𝑦
 =
 𝑚
@@ -173,4 +173,3 @@ $$
 +
 𝑏
 y=mx+b
-$$
