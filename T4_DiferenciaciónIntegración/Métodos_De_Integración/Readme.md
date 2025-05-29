@@ -1,5 +1,4 @@
 
-
 ---
 
 ## Integración Numérica
@@ -19,7 +18,7 @@ $$
 $$
 
 Donde $w_i$ son los pesos y $x_i$ son los puntos de Gauss, que dependen del intervalo $[a, b]$ y del número de puntos $n$. Para aplicarlo, se transforma el intervalo $[a, b]$ al intervalo estándar $[-1, 1]$, y los valores de $w_i$ y $x_i$ se obtienen de tablas predefinidas o mediante algoritmos específicos.
-
+[Ver código de Cuadratura Gaussioana](/Métodos_De_Integracion/CuadraturaGaussiana.py)
 ---
 
 ### **Simpson 1/3**
