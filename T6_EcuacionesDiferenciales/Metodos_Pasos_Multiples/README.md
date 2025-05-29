@@ -16,5 +16,5 @@ $$
 - Ideal cuando se desea **mayor precisión con menos evaluaciones**.  
 - Requiere **valores iniciales previos**.
 
-[Ver codigo de Euler](/T6_EcuacionesDiferenciales/Metodos_Sistemas_Ecuaciones/AdamsBashforth.py)
+[Ver codigo de Adams](/T6_EcuacionesDiferenciales/Metodos_Sistemas_Ecuaciones/AdamsBashforth.py)
 
