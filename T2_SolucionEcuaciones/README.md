@@ -1,50 +1,29 @@
-📁 Metodos_Cerrados: Agrupa métodos que necesitan un intervalo donde la función cambie de signo ($f(a) \cdot f(b) < 0$).
+## Tema 2: Solución de Ecuaciones
 
-Bisección
+Este tema aborda técnicas numéricas para encontrar las raíces o soluciones de ecuaciones, especialmente aquellas que no se pueden resolver de manera analítica. Estas métodos son esenciales en matemáticas aplicadas, ingeniería y ciencias, donde se necesitan aproximaciones precisas para resolver problemas como determinar puntos de equilibrio, optimizar funciones o modelar sistemas físicos. Los métodos se dividen en dos categorías principales: métodos abiertos y métodos cerrados, cada uno con enfoques distintos para alcanzar soluciones.
 
-Regla Falsa
+### 📂 Métodos Abiertos
 
-📁 Metodos_Abiertos: Incluye métodos que no requieren un intervalo inicial, sino uno o dos valores como punto de partida.
+Los métodos abiertos parten de un valor inicial y usan iteraciones para converger hacia la raíz, sin requerir que el intervalo contenga la solución de forma garantizada. Son útiles para ecuaciones no lineales y pueden ser más rápidos, pero dependen de una buena elección inicial.
 
-Punto Fijo
+- **Método de Newton-Raphson**  
+  Este método utiliza la derivada de la función para acercarse rápidamente a la raíz, siendo ideal para funciones suaves y cuando se tiene una estimación inicial cercana a la solución.
 
-Newton-Raphson
+- **Método de Punto Fijo**  
+  Este enfoque transforma la ecuación en una forma iterable, buscando un punto donde la función se iguale a su entrada, útil en problemas donde se puede redefinir la ecuación adecuadamente.
 
-Secante
+### 📂 Métodos Cerrados
 
-Comparación General           
-Característica	              | Métodos Cerrados                       | Métodos Abiertos                                 
-                            
-Uso de intervalo              |Sí, con cambio de signo en los extremos | No, solo se necesita uno o dos valores iniciales
-Tipo de convergencia	        |Lenta pero segura	                     | Más rápida, aunque no siempre garantizada       
-Dificultad de implementación	|Relativamente simple	                   | Puede requerir derivadas o análisis adicional   
-Ejemplos comunes            	|Bisección, Regla Falsa	                 | Punto Fijo, Newton-Raphson, Secante              
-                            
-Propósito del Tema
-El objetivo principal es que el estudiante:
+Los métodos cerrados operan dentro de un intervalo conocido que contiene al menos una raíz, asegurando convergencia bajo ciertas condiciones. Son más robustos y se prefieren cuando no se tiene una buena estimación inicial.
 
-Distinga entre métodos cerrados y abiertos.
+- **Método de Bisección**  
+  Este método divide repetidamente un intervalo por la mitad, seleccionando la subsección que contiene la raíz, siendo muy confiable pero lento.
 
-Selecciona y aplica el método adecuado según las características del problema.
+- **Método de Regla Falsa**  
+  Similar a la bisección, este método usa una línea recta para aproximar la raíz dentro del intervalo, ofreciendo una convergencia más rápida en algunos casos.
 
-Analizar las fortalezas y debilidades de cada enfoque.
+### Contenido
+- Archivos de código en Python y Excel (.xlsx): `Método_de_Newton-Raphson.py`, `Método_de_Punto_Fijo.xlsx`, `Método_de_Bisección.xlsx`, y `Método_de_Regla_Falsa.xlsx`.
 
-Estudiar como cada técnica afecta la velocidad de convergencia y la eficiencia computacional.
-
-Consejos Prácticos
-Es recomendable graficar la función antes de elegir un método.
-
-Asegúrate de que se cumplen las condiciones necesarias para aplicar cada método.
-
-Compara el número de iteraciones que requiere cada uno para evaluar su rendimiento.
-
-Notación Usada
-$x_r$: Valor aproximado de la raíz.
-
-$f(x)$: Función que se analiza.
-
-$x_n$: Valor en la iteración actual.
-
-$x_{n+1}$: Valor calculado para la siguiente iteración.
-
-
+### Recomendación
+Revisa el archivo `README.md` dentro de cada carpeta para más detalles sobre la implementación y uso de cada método.
