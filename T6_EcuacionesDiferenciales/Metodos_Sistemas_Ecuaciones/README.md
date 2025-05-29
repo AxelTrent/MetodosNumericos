@@ -16,5 +16,7 @@ $$
 Esta fórmula se aplica a **cada variable** del sistema.  
 Es un método básico de **primer orden**, con menor precisión que otros, pero útil para **problemas simples** o con **fines educativos**.
 
+[Ver codigo de Euler](/T6_EcuacionesDiferenciales/Metodos_Sistemas_Ecuaciones/EulerSystem.py)
+
 
 
