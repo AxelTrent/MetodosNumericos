@@ -8,9 +8,6 @@ Consideremos el siguiente sistema de 3 ecuaciones lineales con 3 incógnitas:
 -x₁ + 3x₂ + 2x₃ = -7
 3x₁ - x₂ + 2x₃ = 5
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -23,10 +20,6 @@ Ecuación 1: 2, 1, -1 | 8
 Ecuación 2: -1, 3, 2 | -7
 Ecuación 3: 3, -1, 2 | 5
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## Matriz aumentada ingresada
@@ -34,10 +27,6 @@ Editar
 | 2.000 1.000 -1.000 | 8.000 |
 | -1.000 3.000 2.000 | -7.000 |
 | 3.000 -1.000 2.000 | 5.000 |
-
-yaml
-Copiar
-Editar
 
 ---
 
@@ -63,10 +52,6 @@ Esto corresponde a:
 x₁ = 2
 x₂ = 1
 x₃ = -1
-
-yaml
-Copiar
-Editar
 
 ---
 
