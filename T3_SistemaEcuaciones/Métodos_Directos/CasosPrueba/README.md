@@ -1,4 +1,4 @@
-## |Eliminacion Gaussiana Sistema de ecuaciones
+## Eliminacion Gaussiana Sistema de ecuaciones
 
 Consideremos el siguiente sistema de 3 ecuaciones lineales con 3 incógnitas:
 
