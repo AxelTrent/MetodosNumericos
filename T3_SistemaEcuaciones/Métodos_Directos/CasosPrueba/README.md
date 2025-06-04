@@ -4,9 +4,7 @@
 
 Consideremos el siguiente sistema de 3 ecuaciones lineales con 3 incógnitas:
 
-2x₁ + x₂ - x₃ = 8
-                                   -x₁ + 3x₂ + 2x₃ = -7
-                                                                      3x₁ - x₂ + 2x₃ = 5
+2x₁ + x₂ - x₃ = 8 -x₁ + 3x₂ + 2x₃ = -7 3x₁ - x₂ + 2x₃ = 5
 
 
 ---
@@ -42,10 +40,6 @@ Luego, usa **sustitución hacia atrás** para calcular los valores de `x₁`, `x
 x[0] = 2.000
 x[1] = 1.000
 x[2] = -1.000
-
-css
-Copiar
-Editar
 
 Esto corresponde a:
 
