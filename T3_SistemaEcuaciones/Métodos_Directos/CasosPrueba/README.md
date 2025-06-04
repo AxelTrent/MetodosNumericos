@@ -14,17 +14,19 @@ Consideremos el siguiente sistema de 3 ecuaciones lineales con 3 incógnitas:
 - Ingresa `n = 3` (número de ecuaciones).
 - Para la matriz aumentada \[coeficientes | términos independientes\]:
 
-Ecuación 1: 2, 1, -1 | 8
-Ecuación 2: -1, 3, 2 | -7
-Ecuación 3: 3, -1, 2 | 5
+Ecuación 1:   2,  1, -1  |   8
+Ecuación 2:  -1,  3,  2  |  -7
+Ecuación 3:   3, -1,  2  |   5
+
 
 ---
 
 ## Matriz aumentada ingresada
 
-| 2.000 1.000 -1.000 | 8.000 |
-| -1.000 3.000 2.000 | -7.000 |
-| 3.000 -1.000 2.000 | 5.000 |
+|   2.000    1.000   -1.000  |   8.000 |
+|  -1.000    3.000    2.000  |  -7.000 |
+|   3.000   -1.000    2.000  |   5.000 |
+
 
 ---
 
@@ -40,6 +42,7 @@ Luego, usa **sustitución hacia atrás** para calcular los valores de `x₁`, `x
 x[0] = 2.000
 x[1] = 1.000
 x[2] = -1.000
+
 
 Esto corresponde a:
 
