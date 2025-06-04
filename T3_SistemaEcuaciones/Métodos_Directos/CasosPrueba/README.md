@@ -1,6 +1,4 @@
-##Eliminacion Gaussiana 
-
-## Sistema de ecuaciones
+## |Eliminacion Gaussiana Sistema de ecuaciones
 
 Consideremos el siguiente sistema de 3 ecuaciones lineales con 3 incógnitas:
 
@@ -60,9 +58,8 @@ x₃ = -1
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-##Error Eliminación Gaussiana
 
-## Sistema de ecuaciones
+## Error Eliminación Gaussiana Sistema de ecuaciones
 Consideremos el siguiente sistema de 2 ecuaciones con 2 incógnitas, donde la matriz es singular (no tiene solución única):
 x₁ + x₂ = 2
 2x₁ + 2x₂ = 4
