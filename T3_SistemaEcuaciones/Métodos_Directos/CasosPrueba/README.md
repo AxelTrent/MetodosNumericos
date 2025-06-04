@@ -2,8 +2,8 @@
 
 ## Descripción del Proyecto
 Este proyecto contiene dos implementaciones en Python para resolver sistemas de ecuaciones lineales:
-1. **Eliminación Gaussiana**
-2. **Método de Gauss-Jordan**
+1. **Eliminación Gaussiana**     [Ver pruebas de Eliminación Gaussiana](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaEliminacionGaussiana.md)
+2. **Método de Gauss-Jordan**    [Ver pruebas de Gauss-Jordan](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaGauss-Jordam.md)
 
 Los casos de prueba están diseñados para evaluar el comportamiento de ambos algoritmos en diferentes escenarios.
 
@@ -33,5 +33,4 @@ Los casos de prueba están diseñados para evaluar el comportamiento de ambos al
   - Detección de casos especiales
   - Manejo de sistemas indeterminados
  
-    [Ver pruebas de Eliminación Gaussiana](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaEliminacionGaussiana.md)
-   [Ver pruebas de Gauss-Jordan](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaGauss-Jordam.md)
+    
