@@ -60,9 +60,7 @@ x₃ = -1
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-Error
-
-# Sistema de ecuaciones lineales con matriz singular
+# Error Eliminación Gaussiana
 
 ## Sistema de ecuaciones
 Consideremos el siguiente sistema de 2 ecuaciones con 2 incógnitas, donde la matriz es singular (no tiene solución única):
