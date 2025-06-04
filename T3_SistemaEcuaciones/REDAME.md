@@ -16,7 +16,8 @@ Estos métodos ofrecen la solución exacta (dentro de la precisión numérica) e
 
 #### 📂 Métodos Iterativos
 - **Gauss-Seidel**  
-- **Jacobi**  
+- **Jacobi**
+- **Secante**
  
 Estos métodos generan aproximaciones a la solución mediante iteraciones. Son útiles para sistemas grandes y dispersos, pero requieren cumplir condiciones de convergencia.
 
