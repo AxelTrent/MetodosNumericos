@@ -79,4 +79,6 @@ x₁ + x₂ = 3
 
 **Interpretación:**
 - Fila de ceros con término independiente ≠ 0 → Sistema incompatible
-- No existe solución que satisfaga ambas ecuaciones simultáneamente
+- No existe solución que satisfaga ambas ecuaciones 
+
+a
