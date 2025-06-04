@@ -33,4 +33,5 @@ Los casos de prueba están diseñados para evaluar el comportamiento de ambos al
   - Detección de casos especiales
   - Manejo de sistemas indeterminados
  
-    [Ver codigo de prueba de Eliminación Gaussiana](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaEliminacionGaussiana.md)
+    [Ver pruebas de Eliminación Gaussiana](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaEliminacionGaussiana.md)
+   [Ver pruebas de Gauss-Jordan](/T3_SistemaEcuaciones/Métodos_Directos/CasosPrueba/PruebaGauss-Jordam.md)
