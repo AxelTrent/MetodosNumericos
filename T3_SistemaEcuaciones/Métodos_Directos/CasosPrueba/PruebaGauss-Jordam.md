@@ -3,7 +3,7 @@
 ## Caso 1: Sistema con solución única (funciona correctamente)
 
 ### Sistema de ecuaciones
-2x₁ + x₂ - x₃ = 8
+2x₁ + x₂ - x₃ = 8  
 -x₁ + 3x₂ + 2x₃ = -7
 3x₁ - x₂ + 2x₃ = 5
 
