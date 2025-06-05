@@ -1,6 +1,6 @@
 # Cálculo Numérico de Derivadas: Métodos de los Tres y Cinco Puntos
 
-Este proyecto contiene implementaciones en Python de dos métodos numéricos para calcular la derivada de una función en un punto dado: el método de los tres puntos y el método de los cinco puntos. Ambos métodos aproximan la derivada primera de la función \( f(x) = x \sin(x) \) utilizando diferencias finitas, pero difieren en precisión y complejidad. A continuación, se presenta una introducción a los métodos y los casos de prueba diseñados para evaluar su comportamiento.
+Este proyecto contiene implementaciones en Python de dos métodos numéricos para calcular la derivada de una función en un punto dado: el método de los tres puntos y el método de los cinco puntos. Ambos métodos aproximan la derivada primera de la función $$\( f(x) = x \sin(x) \)$$ utilizando diferencias finitas, pero difieren en precisión y complejidad. A continuación, se presenta una introducción a los métodos y los casos de prueba diseñados para evaluar su comportamiento.
 
 ## Introducción a los Métodos y Casos de Prueba
 
