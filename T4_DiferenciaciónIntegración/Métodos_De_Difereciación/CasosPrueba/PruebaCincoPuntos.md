@@ -90,9 +90,9 @@ Demuestra límites prácticos de la precisión numérica
 # Conclusión
 El método de los cinco puntos:
 
-= Es efectivo con tamaños de paso moderados
+- Es efectivo con tamaños de paso moderados
 
-= Falla con pasos extremadamente pequeños
+- Falla con pasos extremadamente pequeños
 
 - Requiere selección cuidadosa del parámetro h
 
