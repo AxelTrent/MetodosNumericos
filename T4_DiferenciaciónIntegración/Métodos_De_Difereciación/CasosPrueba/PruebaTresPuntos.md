@@ -8,26 +8,20 @@
 - **Tamaño de paso**: h = 0.1
 
 ### Implementación
+## Código Python
+```python
 x = 1
 h = 0.1
-derivada_numerica = tres_puntos(x, h),
+derivada_numerica = tres_puntos(x, h)
 derivada_exacta = derivada_analitica(x)
-error_absoluto = abs(derivada_numerica - derivada_exacta),
+error_absoluto = abs(derivada_numerica - derivada_exacta)
+
 print("Función: f(x) = x * sin(x)")
-print(f"Punto de derivación: {x}"), 
-print(f"Tamaño del paso: {h}"),
+print(f"Punto de derivación: {x}")
+print(f"Tamaño del paso: {h}")
 print(f"Derivada numérica (Tres Puntos): {derivada_numerica:.6f}")
 print(f"Derivada analítica:               {derivada_exacta:.6f}")
 print(f"Error absoluto:                  {error_absoluto:.2e}")
-Resultados
-Función: f(x) = x * sin(x)
-Punto de derivación: 1
-Tamaño del paso: 0.1
-Derivada numérica (Tres Puntos): 1.604163
-Derivada analítica:               1.381773
-Error absoluto:                  2.22e-01
-Análisis
-Derivada exacta: f'(1) ≈ 1.381773
 
 ### Evaluaciones:
 
@@ -47,6 +41,7 @@ Función suave y diferenciable
 
 Error dentro de lo esperado para O(h²)
 
+```
 # Caso de Error
 Configuración Problemática
 Misma función: f(x) = x * sin(x)
