@@ -65,4 +65,4 @@ Salida:
 ZeroDivisionError: float division by zero
 ```
 ### Explicación: 
-El método del trapecio calcula h = (b - a) / n, y si n = 0, se produce una división por cero, generando un error explícito.
+El método del trapecio calcula $$ h = (b - a) / n, y si n = 0 $$ , se produce una división por cero, generando un error explícito.
