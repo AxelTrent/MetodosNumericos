@@ -87,7 +87,7 @@ Demuestra límites prácticos de la precisión numérica
 
 ```
 
-Conclusión
+# Conclusión
 El método de los cinco puntos:
 
 Es efectivo con tamaños de paso moderados
