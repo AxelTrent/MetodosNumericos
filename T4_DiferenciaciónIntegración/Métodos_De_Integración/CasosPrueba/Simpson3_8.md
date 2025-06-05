@@ -1,4 +1,4 @@
-Caso que funciona
+# Caso que funciona
 ```python
 import math
 
@@ -41,7 +41,7 @@ Resultado de la integral por el método de Simpson 3/8: 1.896
 ### Explicación: 
 Funciona porque n = 6 es múltiplo de 3, los límites [0, 2] son válidos, y la función es continua. El método de Simpson 3/8 calcula la integral correctamente.
 
-Caso de error
+# Caso de error
 ```python
 import math
 
