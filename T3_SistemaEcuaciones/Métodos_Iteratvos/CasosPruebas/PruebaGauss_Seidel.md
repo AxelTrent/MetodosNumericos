@@ -3,12 +3,13 @@
 ## Caso Exitoso: Sistema Diagonalmente Dominante
 
 ### Sistema de ecuaciones
-4x1 + x2 - x3 = 8
-x1 + 5x2 + 2x3 = -7
--x1 + x2 + 6x3 = 5
+- 4x1 + x2 - x3 = 8
+- x1 + 5x2 + 2x3 = -7
+- -x1 + x2 + 6x3 = 5
 
 
 ### Entrada del programa
+```python
 - Número de ecuaciones (n): 3
 - Matriz aumentada:
 [4.0, 1.0, -1.0, 8.0]
@@ -17,7 +18,7 @@ x1 + 5x2 + 2x3 = -7
 
 - Tolerancia: 0.000001
 - Máximo iteraciones: 100
-
+```
 ### Proceso de ejecución
 1. **Verificación dominancia diagonal**:
  - Cada elemento diagonal es mayor que la suma de los otros elementos en su fila
