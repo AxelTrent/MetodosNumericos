@@ -51,7 +51,7 @@ Mismo punto: x = 1
 Tamaño de paso extremo: h = 1e-9
 
 ## Implementación
-```
+```python
 x = 1
 h = 0.000000001
 derivada_numerica = tres_puntos(x, h)
