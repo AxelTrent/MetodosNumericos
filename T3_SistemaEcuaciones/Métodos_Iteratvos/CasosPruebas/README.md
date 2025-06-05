@@ -1,59 +1,72 @@
-# Resolución de Sistemas de Ecuaciones Lineales: Eliminación Gaussiana, Gauss-Seidel y Jacobi
+# Resolución Numérica con Gauss-Seidel, Jacobi y Método de la Secante
 
-Este proyecto contiene implementaciones en Python de tres métodos numéricos para resolver sistemas de ecuaciones lineales: Eliminación Gaussiana, Gauss-Seidel y Jacobi. Cada método aborda el problema de encontrar soluciones para sistemas de la forma Ax = b, donde A es la matriz de coeficientes y b es el vector de términos independientes.
+Este proyecto contiene implementaciones en Python de tres métodos numéricos:
 
-## Introducción a los Métodos y Casos de Prueba
+1. **Gauss-Seidel** y **Jacobi** para resolver sistemas de ecuaciones lineales
+2. **Método de la Secante** para encontrar raíces de ecuaciones no lineales
 
-### Eliminación Gaussiana
-- **Tipo**: Método directo
-- **Proceso**:
-  1. Transforma la matriz aumentada en forma triangular superior mediante operaciones de fila
-  2. Realiza sustitución hacia atrás para obtener las soluciones
-- **Fortalezas**: Robusto para sistemas no singulares
-- **Limitaciones**: Falla en matrices con pivotes nulos o singularidades
+## Introducción a los Métodos
 
-### Gauss-Seidel
-- **Tipo**: Método iterativo
+### Métodos para Sistemas Lineales (Ax = b)
+
+#### Gauss-Seidel
+- **Tipo**: Iterativo
 - **Características**:
-  - Actualiza variables en cada iteración usando los valores más recientes
-  - Requiere matriz diagonalmente dominante o simétrica positiva definida para convergencia
-- **Ventaja**: Generalmente más rápido que Jacobi
-- **Riesgo**: Puede diverger si no se cumplen las condiciones de convergencia
+  - Actualiza variables usando valores recién calculados
+  - Requiere matriz diagonalmente dominante o simétrica positiva definida
+- **Ventaja**: Convergencia más rápida que Jacobi
+- **Limitación**: Puede divergir si no se cumplen condiciones de convergencia
 
-### Jacobi
-- **Tipo**: Método iterativo
+ [Ver pruebas de la Gauss-Seidel](/T3_SistemaEcuaciones/Métodos_Iteratvos/CasosPruebas/PruebaGauss_Seidel.md)
+
+#### Jacobi
+- **Tipo**: Iterativo
 - **Características**:
-  - Utiliza valores de la iteración anterior para todas las variables
-  - Requiere matriz diagonalmente dominante para converger
+  - Usa valores completos de la iteración anterior
+  - Requiere matriz diagonalmente dominante
 - **Ventaja**: Implementación más simple
-- **Desventaja**: Convergencia más lenta que Gauss-Seidel
+- **Limitación**: Convergencia más lenta que Gauss-Seidel
 
-## Casos de Prueba Diseñados
+ [Ver pruebas de Jacobi](/T3_SistemaEcuaciones/Métodos_Iteratvos/CasosPruebas/PruebaJacobi.md)
+
+### Método para Ecuaciones No Lineales (f(x) = 0)
+
+#### Método de la Secante
+- **Tipo**: Iterativo
+- **Características**:
+  - Usa dos puntos iniciales
+  - No requiere cálculo de derivadas
+- **Ventaja**: Rápida convergencia para funciones suaves
+- **Limitación**: Sensible a elección de puntos iniciales
+
+  [Ver pruebas de la Secante](/T3_SistemaEcuaciones/Métodos_Iteratvos/CasosPruebas/PruebaSecante.md)
+
+## Casos de Prueba
 
 ### Casos Exitosos
-- Sistemas con matrices:
-  - Diagonalmente dominantes (para métodos iterativos)
-  - No singulares (para eliminación gaussiana)
-- Garantizan:
-  - Convergencia (métodos iterativos)
-  - Soluciones exactas (eliminación gaussiana)
+- **Para Gauss-Seidel/Jacobi**:
+  - Sistemas con matrices diagonalmente dominantes
+  - Convergencia rápida y estable
+
+- **Para Secante**:
+  - Funciones continuas y diferenciables
+  - Puntos iniciales adecuados cerca de la raíz
 
 ### Casos Fallidos
-- Sistemas con matrices:
-  - Singulares
-  - No diagonalmente dominantes
-  - Mal condicionados
-- Provocan:
-  - Errores de división por cero
-  - Falta de convergencia
-  - Resultados numéricamente inestables
+- **Para Gauss-Seidel/Jacobi**:
+  - Matrices no diagonalmente dominantes
+  - Sistemas singulares o mal condicionados
 
-## Objetivo de los Casos de Prueba
-Estos casos ilustran:
-- Las fortalezas y limitaciones de cada método
-- La importancia de validar las condiciones de aplicación
-- Posibles mejoras como:
-  - Implementación de pivoteo
-  - Validaciones de convergencia
+- **Para Secante**:
+  - Puntos iniciales mal elegidos
+  - Funciones con discontinuidades o derivadas problemáticas
+
+## Objetivo del Proyecto
+Los casos de prueba permiten:
+- Evaluar el comportamiento de cada método
+- Identificar condiciones óptimas de aplicación
+- Proponer mejoras como:
+  - Validaciones automáticas de convergencia
+  - Estrategias para selección de parámetros iniciales
   - Manejo de casos especiales
 
