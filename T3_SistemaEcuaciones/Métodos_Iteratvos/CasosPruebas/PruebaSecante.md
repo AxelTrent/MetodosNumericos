@@ -13,7 +13,7 @@
 El método de la secante itera usando la fórmula:
 xₙ₊₁ = xₙ - f(xₙ) * (xₙ - xₙ₋₁)/(f(xₙ) - f(xₙ₋₁))
 
-
+```python
 Iteraciones (aproximadas):
 Iteración x_n f(x_n) Error
 0 2.333333 -0.555556 0.666667
@@ -27,7 +27,7 @@ Resultado:
 Convergencia alcanzada en la iteración 5!
 Raíz aproximada: x = 2.000000
 Solución final: x = 2.000000
-
+```
 
 ## Por qué funciona:
 - La función f(x) = x² - 4 es continua y diferenciable, con una raíz bien definida en x = 2
