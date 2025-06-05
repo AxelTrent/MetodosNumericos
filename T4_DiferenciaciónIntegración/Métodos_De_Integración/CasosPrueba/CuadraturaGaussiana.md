@@ -36,7 +36,7 @@ Resultado de la Integral por el método de Cuadratura Gaussiana: 1.894
 ### Explicación: 
 Este caso funciona porque los límites de integración [a, b] = [0, 2] son válidos, y la función x * sin(x) es continua y bien definida en ese intervalo. La cuadratura gaussiana con 2 puntos calcula la integral correctamente.
 
-Caso de error
+# Caso de error
 ```python
 import math
 
