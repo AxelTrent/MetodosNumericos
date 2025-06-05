@@ -51,7 +51,7 @@ Mismo punto: x = 1
 Tamaño de paso extremo: h = 1e-9
 
 ## Implementación
-
+```
 x = 1
 h = 0.000000001
 derivada_numerica = tres_puntos(x, h)
@@ -88,6 +88,8 @@ Pérdida de dígitos significativos al restar números casi iguales
 Amplificación de errores de redondeo al dividir por h muy pequeño
 
 El método O(h²) no compensa los errores numéricos con h extremo
+
+```
 
 # Conclusión
 El método de tres puntos funciona mejor con h moderados
