@@ -47,8 +47,8 @@ Función bien comportada en el punto evaluado
 
 Método de alta precisión (O(h⁴))
 
-Caso de Error
-Configuración Problemática
+# Caso de Error
+## Configuración Problemática
 Misma función: f(x) = x * sin(x)
 
 Mismo punto: x = 1
