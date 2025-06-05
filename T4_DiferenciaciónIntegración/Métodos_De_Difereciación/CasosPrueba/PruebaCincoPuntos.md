@@ -8,7 +8,7 @@
 - **Tamaño de paso**: h = 0.1
 
 ### Implementación
-
+```python
 x = 1
 h = 0.1
 resultado = cinco_puntos(x, h)
@@ -18,7 +18,7 @@ print(f"Resultado: {resultado:.4g}")
 Cálculos Analíticos
 Derivada exacta:
 f'(x) = sin(x) + x * cos(x)
-
+```
 Para x=1:
 f'(1) ≈ 0.8415 + 0.5403 ≈ 1.3818
 
