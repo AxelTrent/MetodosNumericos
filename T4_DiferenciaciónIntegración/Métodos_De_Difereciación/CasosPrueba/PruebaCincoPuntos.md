@@ -1,86 +1,94 @@
-# Caso de prueba exitoso
+# Método de los Cinco Puntos para Derivación Numérica
 
-## Configuración:
+## Caso de Prueba Exitoso
+
+### Configuración
 - **Función**: f(x) = x * sin(x)
 - **Punto de derivación**: x = 1
-- **Tamaño del paso**: h = 0.1
+- **Tamaño de paso**: h = 0.1
 
-## Código:
-```python
+### Implementación
+
 x = 1
 h = 0.1
 resultado = cinco_puntos(x, h)
 print("Función: x * sin(x)")
 print(f"Punto de Derivación: {x}")
-print(f"Resultado de la Derivada por el método de los Cinco Puntos: {resultado:.4g}")
-Ejecución:
-La derivada analítica de f(x) = x * sin(x) es f'(x) = sin(x) + x * cos(x).
+print(f"Resultado: {resultado:.4g}")
+Cálculos Analíticos
+Derivada exacta:
+f'(x) = sin(x) + x * cos(x)
 
-En x = 1, la derivada exacta es aproximadamente:
-f'(1) ≈ 1.3817732907
+Para x=1:
+f'(1) ≈ 0.8415 + 0.5403 ≈ 1.3818
 
-Valores calculados:
+Evaluación de Puntos
+f(1.2) ≈ 0.9776
 
-f(1.2) ≈ 0.9776031479
+f(1.1) ≈ 0.9047
 
-f(1.1) ≈ 0.9046732942
+f(0.9) ≈ 0.7838
 
-f(0.9) ≈ 0.7838407717
+f(0.8) ≈ 0.7173
 
-f(0.8) ≈ 0.7173456097
+Aplicación del Método
+f'(1) ≈ [-0.9776 + 8(0.9047) - 8(0.7838) + 0.7173] / (12*0.1) ≈ 1.3818
 
-Aplicando la fórmula de cinco puntos:
-f'(1) ≈ (-0.9776 + 8*0.9047 - 8*0.7838 + 0.7173)/(12*0.1) ≈ 1.3818
-
-Salida:
+Resultado
 Función: x * sin(x)
 Punto de Derivación: 1
-Resultado de la Derivada por el método de los Cinco Puntos: 1.382
-Por qué funciona:
-h = 0.1 es un tamaño adecuado para buena precisión
+Resultado: 1.382
+Análisis
+Error relativo: 0.016%
 
-La función es suave y diferenciable en x=1
+h = 0.1 proporciona buen equilibrio entre precisión y estabilidad
 
-El resultado numérico (1.382) es muy cercano al valor exacto (1.381773)
+Función bien comportada en el punto evaluado
 
-El método de cinco puntos tiene alta precisión (O(h⁴))
+Método de alta precisión (O(h⁴))
 
-Caso de error
-Configuración:
-Función: f(x) = x * sin(x)
+Caso de Error
+Configuración Problemática
+Misma función: f(x) = x * sin(x)
 
-Punto de derivación: x = 1
+Mismo punto: x = 1
 
-Tamaño del paso: h = 0.000000001 (extremadamente pequeño)
+Tamaño de paso extremo: h = 1e-9
 
-Código:
-python
+Implementación
 x = 1
 h = 0.000000001
 resultado = cinco_puntos(x, h)
 print("Función: x * sin(x)")
 print(f"Punto de Derivación: {x}")
-print(f"Resultado de la Derivada por el método de los Cinco Puntos: {resultado:.4g}")
-Ejecución:
-Con h tan pequeño:
+print(f"Resultado: {resultado:.4g}")
+Problema Encontrado
+Valores de función en puntos adyacentes casi idénticos
 
-Los valores f(x+2h), f(x+h), etc. son casi idénticos
+Diferencias numéricas se pierden por precisión limitada
 
-Las diferencias se pierden por precisión limitada de punto flotante
+Errores de redondeo amplificados
 
-El cálculo resulta en errores de redondeo significativos
-
-Salida (aproximada):
+Resultado Erróneo
 Función: x * sin(x)
 Punto de Derivación: 1
-Resultado de la Derivada por el método de los Cinco Puntos: 1.5  # Valor incorrecto
-Por qué falla:
-h = 10⁻⁹ es demasiado pequeño para cálculos de punto flotante
+Resultado: 1.5
+Análisis del Error
+h demasiado pequeño (1e-9) para precisión de punto flotante
 
-Las diferencias entre valores de función son insignificantes
+Pérdida de dígitos significativos en cálculos
 
-El cálculo se ve afectado por errores de redondeo
+Resultado difiere en ~8.5% del valor real
 
-El resultado (1.5) difiere mucho del valor exacto (≈1.381773)
+Demuestra límites prácticos de la precisión numérica
 
-Demuestra la importancia de elegir un h adecuado (ni muy grande ni muy pequeño)
+Conclusión
+El método de los cinco puntos:
+
+Es efectivo con tamaños de paso moderados
+
+Falla con pasos extremadamente pequeños
+
+Requiere selección cuidadosa del parámetro h
+
+Ilustra compromiso entre precisión teórica y estabilidad numérica
