@@ -37,7 +37,7 @@ Número de segmentos: 4
 Resultado de la integral por el método de Simpson 1/3: 1.896
 ```
 
-###Explicación:
+### Explicación:
 Funciona porque n = 4 es par, los límites [0, 2] son válidos, y la función x * sin(x) es continua. El método de Simpson 1/3 calcula la integral con buena precisión.
 
 # Caso de error
@@ -74,5 +74,5 @@ Salida:
 
 ValueError: n debe ser un número par
 ```
-#Explicación: 
+### Explicación: 
 El método de Simpson 1/3 requiere que n sea par. Al usar n = 3, se genera un error explícito debido a la verificación en el código.
