@@ -8,7 +8,7 @@ Este proyecto contiene implementaciones en Python de dos métodos numéricos par
 Aproxima la derivada primera usando la fórmula de diferencia centrada:
 $$\[ f'(x) \approx \frac{f(x + h) - f(x - h)}{2h} \]$$
 
-[Ver prueba tres puntos](/T_DiferenciaciónIntegración/Métodos_De_Difereciación/Tres_Puntos.py)
+[Ver prueba tres puntos](/T4_DiferenciaciónIntegración/Métodos_De_Difereciación/Tres_Puntos.py)
 
 Es simple y tiene un error de truncamiento de orden \( O(h^2) \), pero es menos preciso que el método de los cinco puntos y sensible a valores extremos de \( h \).
 
@@ -16,7 +16,7 @@ Es simple y tiene un error de truncamiento de orden \( O(h^2) \), pero es menos 
 Utiliza una fórmula más elaborada:
 $$\[ f'(x) \approx \frac{-f(x + 2h) + 8f(x + h) - 8f(x - h) + f(x - 2h)}{12h} \]$$
 
-[Ver prueba cinco puntos](/T_DiferenciaciónIntegración/Métodos_De_Difereciación/Cinco_Puntos.py)
+[Ver prueba cinco puntos](/T4_DiferenciaciónIntegración/Métodos_De_Difereciación/Cinco_Puntos.py)
 
 Ofrece mayor precisión con un error de orden \( O(h^4) \). Sin embargo, requiere evaluar la función en más puntos, lo que aumenta el costo computacional.
 
