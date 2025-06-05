@@ -2,9 +2,9 @@
 
 ## Sistema de ecuaciones:
 Consideremos el siguiente sistema de 3 ecuaciones con 3 incógnitas, diseñado para ser diagonalmente dominante, lo que favorece la convergencia del método de Jacobi:
-4x₁ + x₂ - x₃ = 8
-x₁ + 5x₂ + x₃ = -7
--x₁ + x₂ + 6x₃ = 5
+- 4x₁ + x₂ - x₃ = 8
+- x₁ + 5x₂ + x₃ = -7
+- -x₁ + x₂ + 6x₃ = 5
 
 ```python
 ### Entrada para el programa:
