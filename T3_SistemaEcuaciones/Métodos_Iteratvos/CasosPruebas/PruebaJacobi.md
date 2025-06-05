@@ -6,7 +6,7 @@ Consideremos el siguiente sistema de 3 ecuaciones con 3 incógnitas, diseñado p
 x₁ + 5x₂ + x₃ = -7
 -x₁ + x₂ + 6x₃ = 5
 
-
+```python
 ### Entrada para el programa:
 - Ingresa n = 3 (número de ecuaciones).
 - Para la matriz aumentada [coeficientes | términos independientes]:
@@ -34,6 +34,7 @@ x[1] = -1.000
 x[2] = 1.000
 
 Esto corresponde a x₁ = 2, x₂ = -1, x₃ = 1.
+```
 
 ### Por qué funciona:
 - La matriz es diagonalmente dominante, una condición suficiente para la convergencia del método de Jacobi.
@@ -60,8 +61,8 @@ x₁ + 4x₂ = 1
 - Máximo de iteraciones: 100
 
 ### Matriz aumentada ingresada:
-| 1.000 4.000 | 1.000 |
-| 3.000 1.000 | 2.000 |
+- | 1.000 4.000 | 1.000 |
+- | 3.000 1.000 | 2.000 |
 
 
 ### Ejecución:
