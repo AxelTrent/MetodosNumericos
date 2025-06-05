@@ -18,7 +18,7 @@ print(f"Resultado: {resultado:.4g}")
 Cálculos Analíticos
 Derivada exacta:
 f'(x) = sin(x) + x * cos(x)
-```
+
 Para x=1:
 f'(1) ≈ 0.8415 + 0.5403 ≈ 1.3818
 
@@ -47,6 +47,8 @@ Función bien comportada en el punto evaluado
 
 Método de alta precisión (O(h⁴))
 
+```
+
 # Caso de Error
 ## Configuración Problemática
 Misma función: f(x) = x * sin(x)
@@ -56,6 +58,7 @@ Mismo punto: x = 1
 Tamaño de paso extremo: h = 1e-9
 
 Implementación
+```python
 x = 1
 h = 0.000000001
 resultado = cinco_puntos(x, h)
@@ -81,6 +84,8 @@ Pérdida de dígitos significativos en cálculos
 Resultado difiere en ~8.5% del valor real
 
 Demuestra límites prácticos de la precisión numérica
+
+```
 
 Conclusión
 El método de los cinco puntos:
