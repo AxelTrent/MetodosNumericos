@@ -51,13 +51,12 @@ Método de alta precisión (O(h⁴))
 
 # Caso de Error
 ## Configuración Problemática
-Misma función: f(x) = x * sin(x)
+- Misma función: f(x) = x * sin(x)
+- Mismo punto: x = 1
 
-Mismo punto: x = 1
+ Tamaño de paso extremo: h = 1e-9
 
-Tamaño de paso extremo: h = 1e-9
-
-Implementación
+### Implementación
 ```python
 x = 1
 h = 0.000000001
